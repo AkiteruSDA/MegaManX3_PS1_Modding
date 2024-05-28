@@ -1,0 +1,25 @@
+
+CdSearchFile = 0x800a0bc8;
+
+CreateThread = 0x8001afc4;
+ThreadSleep = 0x8001af44;
+DeleteThread = 0x8001aebc;
+
+FadeOut = 0x8001c64c;
+FadeIn = 0x8001c4ac;
+
+GetRng = 0x80037c24;
+
+printf = 0x8009e464;
+
+memcpy = 0x8009e404;
+
+gameMode = 0x800d8007;
+gameMode2 = 0x800d8008;
+gameMode3 = 0x800d8009;
+gameMode4 = 0x800d800A;
+
+stageId = 0x800d80f1;
+
+buttonsHeld = 0x80134b4c;
+buttonsPressed = 0x80134b50;

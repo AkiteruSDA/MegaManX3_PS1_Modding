@@ -1,0 +1,23 @@
+{
+  "compiler": {
+    "function_sections": 1,
+    "reorder_functions": 0,
+    "optimization": 4,
+    "debug": 1,
+    "psyq": 1,
+    "mininoob": 0,
+    "8mb": 0
+  },
+    "versions": [
+      {
+        "japan": {
+          "name": "RMX3.bin",
+          "symbols": [
+            "common.txt",
+            "gpu.txt"
+          ],
+          "build_id": 283
+        }
+      }
+    ]
+}

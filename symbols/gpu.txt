@@ -1,0 +1,39 @@
+AddPrim = 0x8008b274;
+AddPrims = 0x8008b2b0;
+CatPrim = 0x8008b2ec;
+
+DrawOTag = 0x80088de8;
+DrawSync = 0x80088884;
+
+VSync = 0x80088200;
+
+ClearImage = 0x80088a18;
+
+LoadImage = 0x80088aac;
+StoreImage = 0x80088b10;
+MoveImage = 0x80088b74;
+
+PutDispEnv = 0x80088f58;
+PutDrawEnv = 0x80088e5c;
+
+SetSemiTrans = 0x8008b328;
+SetPolyF3 = 0x8008b378;
+SetPolyFT3 = 0x8008b38c;
+SetPolyG3 = 0x8008b3a0;
+SetPolyGT3 = 0x8008b3b4;
+SetPolyF4 = 0x8008b3c8;
+SetPolyFT4 = 0x8008b3dc;
+SetPolyG4 = 0x8008b3f0;
+SetPolyGT4 = 0x8008b404;
+SetSprt8 = 0x8008b418;
+SetSprt16 = 0x8008b42c;
+SetSprt = 0x8008b440;
+SetTile8 = 0x8008b468;
+SetTile16 = 0x8008b47c;
+SetTile = 0x8008b490;
+SetLineF2 = 0x8008b4a4;
+SetLineG2 = 0x8008b4b8;
+SetLineF3 = 0x8008b4cc;
+SetLineG3 = 0x8008b4ec;
+SetLineF4 = 0x8008b50c;
+SetLineG4 = 0x8008b52c;

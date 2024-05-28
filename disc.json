@@ -1,0 +1,32 @@
+{
+  "japan": [
+    {
+      "D0/X3_PS.EXE": [
+        {
+          "name": "header",
+          "address": "0x8000B070",
+          "offset": "0x0"
+        },
+        {
+          "name": "exe",
+          "address": "0x80010000",
+          "offset": "0x800"
+        }
+      ],
+      "OV0/DEMO01.BIN": [
+        {
+          "name": "demo01_ovl",
+          "address": "0x80148000",
+          "offset": "0x0"
+        }
+      ],
+      "OV0/STAGE_SE.BIN": [
+        {
+          "name": "stage_se_ovl",
+          "address": "0x80148000",
+          "offset": "0x0"
+        }
+      ]
+    }
+  ]
+}
