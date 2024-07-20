@@ -13,7 +13,7 @@ void DeleteThread();
 void FadeOut();
 void FadeIn();
 
-short GetRng();
+int16_t GetRng();
 
 int printf(const char *fmt, ...);
 
