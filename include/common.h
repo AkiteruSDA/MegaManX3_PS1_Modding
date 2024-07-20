@@ -1,12 +1,13 @@
 #ifndef COMMON_H
 #define COMMON_H
+#include <stdint.h>
 #include <sys/types.h>
 #include <libcd.h>
 #include <memory.h>
 CdlFILE *CdSearchFile(CdlFILE *fp, char *name);
 
 void CreateThread();
-void ThreadSleep(u_char frames);
+void ThreadSleep(uint8_t frames);
 void DeleteThread();
 
 void FadeOut();
@@ -16,20 +17,20 @@ short GetRng();
 
 int printf(const char *fmt, ...);
 
-void *memcpy(u_char *dest,u_char *src,int n);
+void *memcpy(uint8_t *dest,uint8_t *src,int n);
 
-extern u_char gameMode;
-extern u_char gameMode2;
-extern u_char gameMode3;
-extern u_char gameMode4;
+extern uint8_t gameMode;
+extern uint8_t gameMode2;
+extern uint8_t gameMode3;
+extern uint8_t gameMode4;
 
-extern u_char stageId;
+extern uint8_t stageId;
 
 typedef unsigned char   undefined;
-typedef unsigned char    byte;
+
 typedef struct {
-    byte status;
-    byte sleepFrames;
+    uint8_t status;
+    uint8_t sleepFrames;
     undefined field2_0x2;
     undefined field3_0x3;
     long (* destP)(void);
@@ -56,8 +57,8 @@ typedef struct {
     undefined field25_0x1f;
 }Thread;
 
-extern ushort buttonsHeld;
-extern ushort buttonsPressed;
+extern uint16_t buttonsHeld;
+extern uint16_t buttonsPressed;
 
 enum PadButtons{
     PAD_CROSS = 0x40,
