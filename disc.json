@@ -26,6 +26,69 @@
           "address": "0x80148000",
           "offset": "0x0"
         }
+      ],
+      "OV0/ST0CEM.BIN": [
+        {
+          "name": "doppler_3_ovl",
+          "address": "0x80148000",
+          "offset": "0x0"
+        }
+      ],
+      "OV0/ST01BOS.BIN": [
+        {
+          "name": "hornet_refight_ovl",
+          "address": "0x80145000",
+          "offset": "0x0"
+        }
+      ],
+      "OV0/ST02BOS.BIN": [
+        {
+          "name": "buffalo_refight_ovl",
+          "address": "0x80145000",
+          "offset": "0x0"
+        }
+      ],
+      "OV0/ST03BOS.BIN": [
+        {
+          "name": "beetle_refight_ovl",
+          "address": "0x80145000",
+          "offset": "0x0"
+        }
+      ],
+      "OV0/ST04BOS.BIN": [
+        {
+          "name": "seahorse_refight_ovl",
+          "address": "0x80145000",
+          "offset": "0x0"
+        }
+      ],
+      "OV0/ST05BOS.BIN": [
+        {
+          "name": "catfish_refight_ovl",
+          "address": "0x80145000",
+          "offset": "0x0"
+        }
+      ],
+      "OV1/ST06BOS.BIN": [
+        {
+          "name": "crawfish_refight_ovl",
+          "address": "0x80145000",
+          "offset": "0x0"
+        }
+      ],
+      "OV1/ST07BOS.BIN": [
+        {
+          "name": "rhino_refight_ovl",
+          "address": "0x80145000",
+          "offset": "0x0"
+        }
+      ],
+      "OV1/ST08BOS.BIN": [
+        {
+          "name": "tiger_refight_ovl",
+          "address": "0x80145000",
+          "offset": "0x0"
+        }
       ]
     }
   ]
